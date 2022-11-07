@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
- <meta charset="UTF-8">
- <!-- Mobile optimized -->
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- Call style file -->
- <link rel="stylesheet" href="CSS/style.css">
- <title>Booki</title>
-</head>
-<body>
-  <h1>Hello Booki</h1>
-  <p class='p1'>Let's begin !</p>
-  <p class='p2'>Let's begin !</p>
-  <ul>
-   <li>Kevin</li>
-   <li>31 ans</li>
-   <li>Arcachon</li>
-  </ul>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Mobile optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Call style file -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Booki</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/images/Booki@3x.png" alt="Booki">
+      <nav>
+        <a href="#">Hébergements</a>
+        <a href="#">Activités</a>
+      </nav>
+    </header>
+    <main>
+      <section class='border'>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="thin">En plein centre-ville ou en pleine nature</p>
+          <form action="">
+            <label for="local"><img src="/images/local.svg" alt="Localisation"></label>
+            <input type="search" id="local" name="local" value='Marseille, France'>
+            <input type="submit" value='Rechercher'>
+          </form>
+          <div class="border">
+            <p class="bold border">Filtres</p>
+            <div class="border">
+              <button class="filter-button"><span class="elements-button bold"><img src="/images/money.svg">Économique</span></button>
+              <button class="filter-button"><span class="elements-button bold"><img src="/images/heart.svg">Romantique</span></button>
+              <button class="filter-button"><span class="elements-button bold"><img src="/images/human.svg">familial</span></button>
+              <button class="filter-button"><span class="elements-button bold"><img src="/images/animal.svg">Animaux autorisés</span></button>
+            </div>
+          </div>
+        <a href="#"">Afficher plus</a>
+      </section>
+    </main>
+    <footer>
+      footer
+    </footer>
+  </body>
 </html>
