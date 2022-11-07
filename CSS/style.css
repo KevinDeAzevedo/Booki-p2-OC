@@ -67,6 +67,22 @@ nav a:hover {
  border: 1px solid green;
 }
 
+.filter-items {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+ width: 80%;
+ border: 1px solid red;
+}
+
+.filter-buttons {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ width: 900px;
+ border: 1px solid red;
+}
 .filter-button {
  width: auto;
  height: 50px;
@@ -82,15 +98,37 @@ nav a:hover {
  background-color: #deebff;
 }
 
-.elements-button {
+.content-button {
  display: flex;
  justify-content: center;
- height: 22px;
+ min-height: 22px;
  font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
-.elements-button img {
+.content-button img {
  width: auto;
  max-height: 22px;
  margin-right: 10px;
+}
+.info-resultats {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+ border: 2px solid blue;
+}
+
+.info-icon {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 24px;
+ height: 24px;
+ border: 1px solid #D9D9D9;
+ border-radius: 100%;
+}
+
+.info-icon img {
+ width: auto;
+ height: 10px;
 }
