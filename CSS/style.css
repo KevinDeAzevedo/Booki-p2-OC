@@ -291,12 +291,15 @@ button[type="submit"]{
     border-bottom: 3px solid;
     border-color: #f2f2f2;
   }
+  .search-container {
+    padding: 20px 20px;
+  }
   .search-bar {
     width: 100%;
-    margin: 30px 0;
+    margin: 40px 0;
   }
   .search-bar label {
-    width: 49px;
+    width: 70px;
   }
   input[type="search"] {
     width: 100%;
@@ -308,7 +311,7 @@ button[type="submit"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 49px;
+    width: 70px;
     line-height: 0;
   }
 }
