@@ -37,6 +37,12 @@ h6 {
  margin: 0;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
  list-style-type: none;
  margin: 0;
@@ -69,19 +75,10 @@ header {
 @media screen and (max-width: 768px) {
  header {
   flex-direction: column;
-  height: 100px;
+  height: 120px;
   padding: 21px 0 0 0;
+  gap: 10%;
   border: 1px solid red;
- }
-
- nav ul {
-  justify-content: center;
- }
-
- nav li {
-
-  border-top: 4px solid;
-  border-color: blue;
  }
 
 }
