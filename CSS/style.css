@@ -25,6 +25,7 @@ body {
  box-sizing: border-box;
  /* helpfull to force padding inside blocks do not break the layout */
 }
+
 h1,
 h2,
 h3,
@@ -54,6 +55,7 @@ p {
  max-width: 1400px;
  border: 1px solid black;
 }
+
 header {
  display: flex;
  flex-direction: row;
@@ -64,8 +66,27 @@ header {
  padding: 0 10px;
 }
 
+@media screen and (max-width: 768px) {
+ header {
+  flex-direction: column;
+  height: 100px;
+  padding: 21px 0 0 0;
+  border: 1px solid red;
+ }
+
+ nav ul {
+  justify-content: center;
+ }
+
+ nav li {
+
+  border-top: 4px solid;
+  border-color: blue;
+ }
+
+}
 nav {
- width: auto;
+ width: 100%;
  height: 100%;
 }
 
@@ -74,16 +95,17 @@ nav ul {
  flex-direction: row;
  justify-content: flex-end;
  align-items: center;
- width: auto;
+ width: 100%;
  height: 100%;
 }
 
 nav li {
- min-width: 140px;
+ width: 140px;
   /* width of tab */
  height: 100%;
+ text-align: center;
  border-top: 3px solid;
-  border-color: transparent;
+ border-color: transparent;
 }
 
 nav li:hover {
@@ -92,7 +114,7 @@ nav li:hover {
 
 nav a {
  display: flex;
-  justify-content: center;
+ justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -105,7 +127,7 @@ nav a {
 nav a:hover {
  font-weight: 500;
  letter-spacing: -0.008em;
-  /* fix shaking letters cause : font weight changing */
+ /* fix shaking letters cause : font weight changing */
  color: #0065FC;
 }
 
@@ -113,6 +135,7 @@ nav a:hover {
  width: auto;
  height: 19px;
 }
+
 .thin {
  font-weight: 400;
 }
