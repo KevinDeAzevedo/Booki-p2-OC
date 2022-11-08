@@ -44,6 +44,12 @@ p {
  margin: 0;
 }
 
+.main-container {
+ margin: auto;
+ /* center main content */
+ max-width: 1400px;
+ border: 1px solid black;
+}
 header {
  display: flex;
  flex-direction: row;
