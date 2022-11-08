@@ -55,7 +55,7 @@ p {
   margin: 0;
 }
 
-input {
+input, button {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.125em;
@@ -188,13 +188,21 @@ input[type="search"]:focus-visible {
   outline: none;      
 }
 
-#search-button {
+button[type="submit"]{
+    height: auto;
+    border-radius: 0 15px 15px 0;
+    color: #ffffff;
+    background-color: #0065fc;
+    cursor: pointer;
+}
+
+#search-button-laptop {
   display: block;
   width: 32%;
-  height: auto;
-  border-radius: 0 15px 15px 0;
-  color: #ffffff;
-  background-color: #0065fc;
+}
+
+#search-button-mobile {
+  display: none;
 }
 
 .filter-items {
@@ -288,7 +296,11 @@ input[type="search"]:focus-visible {
   input[type="search"] {
     width: 100%;
   }
-  #search-button {
+  #search-button-laptop {
+    display: none;
+  }
+  #search-button-mobile {
+    display: block;
     width: 49px;
   }
 }
