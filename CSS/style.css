@@ -95,6 +95,15 @@ input, button {
   max-width: 1400px;
 }
 
+.cta {
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
+.cta:hover {
+  color: #0065fc;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                   Header                                   */
 /* -------------------------------------------------------------------------- */
@@ -370,7 +379,7 @@ button[type="submit"]{
   gap: 3.5%;
   width: auto;
   height: auto;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .host-card {
@@ -425,7 +434,7 @@ button[type="submit"]{
   gap: 0.1%;
   width: auto;
   height: auto;
-  margin: 15px 0;
+  margin: 5px 0;
 }
 
 .star-card {
