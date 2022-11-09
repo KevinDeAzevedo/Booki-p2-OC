@@ -507,11 +507,6 @@ button[type="submit"]{
     margin: 15px 0;
   }
 
-  .star-card-content img{
-    width: 110px; /* adjust here for other variant card */
-
-  }
-
 }
 
 
