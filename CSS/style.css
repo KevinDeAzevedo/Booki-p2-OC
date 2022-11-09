@@ -62,6 +62,11 @@ p {
   margin: 0;
 }
 
+.tiny-p {
+  font-size: 0.87em;
+  line-height: 16.44px;
+}
+
 input, button {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -356,11 +361,6 @@ button[type="submit"]{
   width: 31%;
   height: 200px;
   margin: 15px 0;
-}
-
-.block {
-  display: flex;
-  border: 1px solid pink;
 }
 
 .card-style {
