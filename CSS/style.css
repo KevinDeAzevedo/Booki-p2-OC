@@ -96,6 +96,7 @@ input, button {
 }
 
 .cta {
+  display: inline-block;
   font-size: 1.125em;
   margin: 20px 0;
 }
