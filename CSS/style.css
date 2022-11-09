@@ -426,7 +426,6 @@ button[type="submit"]{
   width: auto;
   height: auto;
   margin: 15px 0;
-  border: 1px solid green;
 }
 
 .star-card {
@@ -490,6 +489,11 @@ button[type="submit"]{
     width: 31%;
     height: auto;
     margin: 15px 0;
+  }
+
+  .star-card-content img{
+    width: 110px; /* adjust here for other variant card */
+
   }
 
 }
