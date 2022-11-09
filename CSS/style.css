@@ -437,6 +437,7 @@ button[type="submit"]{
 
 .star-card-content {
   width: auto;
+  height: 100%;
   min-height: 140px;
   display: flex;
   flex-direction: row; /* adjust here for other variant card */
@@ -590,6 +591,7 @@ button[type="submit"]{
 
   /* --------------------------------- Stars --------------------------------- */
   
+
   .star-card {
     width: 100%;
   }
