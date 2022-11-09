@@ -427,18 +427,18 @@ button[type="submit"]{
   width: auto;
   height: auto;
   margin: 15px 0;
-  border: 1px solid green;
+  border: 1px solid blue;
 }
 
 .star-card {
   width: 100%;
-  height: 140px;
+  height: auto;
   margin: 15px 0;
 }
 
 .star-card-content {
   width: auto;
-  height: 100%;
+  min-height: 140px;
   display: flex;
   flex-direction: row; /* adjust here for other variant card */
   overflow: hidden; /* adjust here for other variant card */
@@ -446,12 +446,13 @@ button[type="submit"]{
 
 .star-card-content .card-description{
   padding-top: 18px;
+  height: auto;
 }
 
 .star-card-content img{
   object-fit: cover;
   width: 130px; /* adjust here for other variant card */
-  height: 100%;
+  height: auto;
   padding: 5px;
   border-radius: 20px 0 0 20px;
 }
