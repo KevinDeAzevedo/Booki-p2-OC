@@ -461,6 +461,7 @@ button[type="submit"]{
 .star-image {
   position: relative;
   width: 220px;
+  height: auto;
 }
 
 .star-image img{
