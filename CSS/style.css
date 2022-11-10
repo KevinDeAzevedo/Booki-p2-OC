@@ -377,11 +377,6 @@ button[type="submit"]{
   align-items: center;
 }
 
-.large-title img {
-  width: 18px;
-  height: auto;
-}
-
 .hosts-listing {
   display: flex;
   flex-wrap: wrap;
