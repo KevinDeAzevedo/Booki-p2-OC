@@ -90,9 +90,10 @@ input, button {
 }
 
 .main-container {
-  margin: auto;
+  margin: 0 auto;
   /* center main content */
-  max-width: 1400px;
+  padding: 0 50px;
+  max-width: 1500px;
 }
 
 .cta {
@@ -116,7 +117,7 @@ header {
   align-items: center;
   width: 100%;
   height: 95px;
-  padding: 0 10px;
+  padding: 0;
 }
 
 nav {
@@ -177,7 +178,7 @@ nav a:hover {
 .main-search-container {
   width: 100%;
   height: auto;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 /* ---------------------------- Search local bar ---------------------------- */
@@ -329,7 +330,7 @@ button[type="submit"]{
   gap: 3%;
   width: 100%;
   height: auto;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 .products-container {
@@ -479,6 +480,11 @@ button[type="submit"]{
 
 @media screen and (max-width: 992px) {
 
+/* --------------------------------- Global --------------------------------- */
+  .main-container {
+    padding: 0 72px;
+  }
+
 /* ---------------------------------- Hosts --------------------------------- */
 
   .main-hosts-container {
@@ -517,6 +523,10 @@ button[type="submit"]{
 
 @media screen and (max-width: 768px) {
 
+/* --------------------------------- Global --------------------------------- */
+.main-container {
+  padding: 0;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                   Header                                   */
