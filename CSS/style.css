@@ -106,6 +106,15 @@ input, button {
   color: #0065fc;
 }
 
+/* make all FontAwesome icons with custom color */
+.fa-solid {
+  color: #0065fc;
+}
+
+.icon-disable {
+  color: #f2f2f2;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                   Header                                   */
 /* -------------------------------------------------------------------------- */
@@ -407,19 +416,9 @@ button[type="submit"]{
   border-radius: 20px 20px 0 0;
 }
 
-.score {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin-right: 2px;
-}
-
-.score-blue {
-  background-image: url("/images/score-blue.svg");
-}
-
-.score-grey {
-  background-image: url("/images/score-grey.svg");
+.scoring {
+  font-size: 0.75em;
+  white-space: nowrap;
 }
 
 /* --------------------------------- Stars --------------------------------- */
