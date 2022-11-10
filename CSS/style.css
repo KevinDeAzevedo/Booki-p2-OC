@@ -276,7 +276,7 @@ button[type="submit"]{
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   margin: 10px 0;
-  padding: 12px;
+  padding: 12px 20px;
   cursor: pointer;
 }
 
@@ -287,18 +287,19 @@ button[type="submit"]{
 .content-button {
   display: flex;
   justify-content: center;
-  min-height: 22px;
+  align-items: center;
+  min-height: 23px;
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 1.06em;
   overflow: hidden;
   white-space: nowrap
 }
 
-.content-button img {
-  width: auto;
-  max-height: 22px;
-  margin-right: 5px;
+.content-button i {
+  font-size: 1.2em;
+  margin-right: 0.3em;
 }
+
 
 /* ---------------------------------- Infos --------------------------------- */
 
