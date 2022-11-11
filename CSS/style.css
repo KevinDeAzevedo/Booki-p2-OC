@@ -565,8 +565,7 @@ footer h3 {
 }
 
 footer li {
-  float: left; 
-  clear: left;
+  width: fit-content; /* limit size of li from text width */
   margin: 6px 0;
 }
 
@@ -647,7 +646,7 @@ footer li {
     padding: 21px 0 0 0;
     gap: 30%;
   }
-  nav li {
+  header nav li {
     width: 100%;
     /* width of tab */
     border-top: none;
