@@ -297,7 +297,7 @@ button[type="submit"]{
 
 .content-button i {
   font-size: 1.2em;
-  margin-right: 0.3em;
+  margin-right: 10px;
 }
 
 
@@ -588,6 +588,10 @@ button[type="submit"]{
   }
   .content-button {
     justify-content: flex-start;
+  }
+
+  .content-button i {
+    font-size: 1.8em;
   }
 
 /* ---------------------------------- Hosts --------------------------------- */
