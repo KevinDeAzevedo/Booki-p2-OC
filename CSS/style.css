@@ -237,17 +237,17 @@ input[type="search"]:focus-visible {
 button[type="submit"]{
     height: auto;
     border-radius: 0 15px 15px 0;
+    padding: 0 15px;
     color: #ffffff;
     background-color: #0065fc;
     cursor: pointer;
 }
 
-#search-button-laptop {
+#search-text {
   display: block;
-  width: 32%;
 }
 
-#search-button-mobile {
+#search-icon {
   display: none;
 }
 
@@ -564,15 +564,13 @@ button[type="submit"]{
   input[type="search"] {
     width: 100%;
   }
-  #search-button-laptop {
+
+  #search-text {
     display: none;
   }
-  #search-button-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    line-height: 0;
+  
+  #search-icon {
+    display: block;
   }
 
 /* --------------------------------- Filter --------------------------------- */
