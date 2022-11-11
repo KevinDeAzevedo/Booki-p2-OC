@@ -153,12 +153,12 @@ header {
   padding: 0;
 }
 
-nav {
+header nav {
   width: 100%;
   height: 100%;
 }
 
-nav ul {
+header nav ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -167,7 +167,7 @@ nav ul {
   height: 100%;
 }
 
-nav li {
+header nav li {
   width: 140px;
   /* width of tab */
   height: 100%;
@@ -176,11 +176,11 @@ nav li {
   border-color: transparent;
 }
 
-nav li:hover {
+header nav li:hover {
   border-color: #0065fc;
 }
 
-nav a {
+header nav a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +192,7 @@ nav a {
   color: #000000;
 }
 
-nav a:hover {
+header nav a:hover {
   font-weight: 500;
   letter-spacing: -0.008em;
   /* fix shaking letters cause : font weight changing */
@@ -535,6 +535,41 @@ button[type="submit"]{
   padding: 18px;
 }
 
+/* --------------------------------- Footer --------------------------------- */
+
+.main-footer-container {
+  width: 100%;
+  height: auto;
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  padding: 0 70px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  gap: 15%;
+}
+
+footer nav {
+  padding-bottom: 58px;
+}
+
+footer h3 {
+  margin-top: 45px;
+  margin-bottom: 14px;
+}
+
+footer li {
+  float: left; 
+  clear: left;
+  margin: 6px 0;
+}
+
 
 
 /* -------------------------------------------------------------------------- */
@@ -710,6 +745,12 @@ button[type="submit"]{
 
 .activity-image {
   min-height: 134px; /* change height card here */
+}
+
+/* --------------------------------- Footer --------------------------------- */
+
+footer nav {
+  flex-direction: column;
 }
 
 }
