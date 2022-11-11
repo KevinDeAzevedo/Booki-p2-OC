@@ -617,7 +617,6 @@ footer li {
 
 .activities-listing {
   display: flex;
-  gap: 6%;
 }
 
 .activity-image {
@@ -742,6 +741,7 @@ footer li {
 
 .activities-listing {
   flex-direction: column;
+  gap: 0;
 }
 
 .activity-image {
