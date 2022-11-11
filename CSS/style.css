@@ -221,7 +221,7 @@ header nav a:hover {
   flex-direction: row;
   width: 420px; /* Adjust here width of all search component */
   height: 49px;
-  margin: 20px 0;
+  margin: 20px 0 30px 0;
 }
 
 .search-bar label {
@@ -273,10 +273,11 @@ button[type="submit"]{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .filter-title {
+  padding: 15px 0;
   font-size: 1.06em;
   margin-right: 1%;
 }
@@ -296,7 +297,7 @@ button[type="submit"]{
   background-color: #ffffff;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  margin: 10px 0;
+  margin-bottom: 15px;
   padding: 12px 20px;
   cursor: pointer;
 }
@@ -666,7 +667,7 @@ footer li {
 
   .search-bar {
     width: 100%;
-    margin: 40px 0;
+    margin: 40px 0 25px 0;
   }
   .search-bar label {
     width: 70px;
