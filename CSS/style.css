@@ -508,14 +508,14 @@ button[type="submit"]{
   flex-direction: column;
   overflow: hidden;
   width: 100%;
-  height: 444px;
+  height: 100%;
   border: 1px solid red;
 }
 
 .activity-image {
   position: relative;
   width: 100%;
-  height: 80%;
+  min-height: 389px;
   border: 1px solid green;
 }
 
@@ -530,7 +530,7 @@ button[type="submit"]{
   display: flex;
   align-items: center;
   width: 100%;
-  height: 20%;
+  height: 100%;
   border: 1px solid #0065fc;
 }
 
