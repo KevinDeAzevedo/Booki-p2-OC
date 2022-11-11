@@ -495,6 +495,7 @@ button[type="submit"]{
 
 .activities-listing {
   display: flex;
+  flex-direction: row;
   gap: 3%;
 }
 
@@ -559,7 +560,7 @@ button[type="submit"]{
     width: 100%;
   }
 
-  /* --------------------------------- Stars --------------------------------- */
+/* --------------------------------- Stars --------------------------------- */
   
   .stars {
     width: 100%;
@@ -575,6 +576,17 @@ button[type="submit"]{
     height: auto;
     margin: 15px 0;
   }
+
+/* ------------------------------- Activities ------------------------------- */
+
+.activities-listing {
+  display: flex;
+  gap: 6%;
+}
+
+.activity-image {
+  min-height: 211px; /* change height card here */
+}
 
 }
 
@@ -679,12 +691,26 @@ button[type="submit"]{
   margin: 15px 0;
 }
 
-  /* --------------------------------- Stars --------------------------------- */
+/* --------------------------------- Stars --------------------------------- */
   
 
   .star-card {
     width: 100%;
   }
+
+/* ------------------------------- Activities ------------------------------- */
+
+.main-activities-container {
+  padding: 20px 35px;
+}
+
+.activities-listing {
+  flex-direction: column;
+}
+
+.activity-image {
+  min-height: 134px; /* change height card here */
+}
 
 }
 
