@@ -111,8 +111,16 @@ input, button {
   color: #0065fc;
 }
 
-.icon-disable {
+.icon-grey {
   color: #f2f2f2;
+}
+
+.icon-black {
+  color: #000000;
+}
+
+.icon-white {
+  color: #ffffff;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -205,14 +213,11 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   width: 13%;
+  font-size: 1.3em;
+  line-height: 0;
   height: auto;
   border-radius: 15px 0 0 15px;
   background-color: #f2f2f2;
-}
-
-.search-icon {
-  width: auto;
-  max-height: 18px;
 }
 
 input[type="search"] {
