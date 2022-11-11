@@ -243,6 +243,7 @@ input[type="search"] {
   padding: 0 1em;
   border-style: solid;
   border-color: #f2f2f2;
+  text-overflow: ellipsis; /* add ... when text is hidden */
 }
 
 input[type="search"]:focus-visible {
@@ -748,6 +749,10 @@ footer li {
 }
 
 /* --------------------------------- Footer --------------------------------- */
+
+.main-footer-container {
+  padding: 0 30px;
+}
 
 footer nav {
   flex-direction: column;
