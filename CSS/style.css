@@ -240,7 +240,7 @@ input[type="search"] {
   width: 55%;
   height: auto;
   border-width: 1px;
-  padding-left: 1em;
+  padding: 0 1em;
   border-style: solid;
   border-color: #f2f2f2;
 }
