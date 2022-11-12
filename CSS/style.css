@@ -40,7 +40,7 @@ h3 {
   font-size: 1em;
   line-height: 18.78px;
   margin: 0;
-  font-size: 700;
+  font-weight: 700;
 }
 
 a,
@@ -581,7 +581,7 @@ footer li {
 
   .main-hosts-container {
     flex-direction: column;
-    padding: 20px O;
+    padding: 20px 0;
     gap: 50px;
   }
 
